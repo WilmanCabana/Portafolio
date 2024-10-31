@@ -1,0 +1,105 @@
+#seccion-principal{background-color: #dde0e3;
+    padding: 50px;
+    margin: 50px;
+    border: 5px solid black;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    background-color: #9b3807;
+    align-items: center;
+    justify-content: space-between;
+    color: azure;
+}
+
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: rgba(151, 151, 150, 0.495);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.Navegacion{
+    margin: 5px;
+}
+
+.Navegacion ul{
+    display: flex;
+    gap: 2em;
+}
+
+
+.subt2{
+    align-content: center;
+    text-align: center;
+}
+
+.textjustify{
+    text-align: justify;
+}
+
+.acerca-imagen{
+    text-align: center;
+}
+
+.acerca-imagen img{
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid rgb(166, 98, 39);
+    border-radius: 50%;
+}
+
+.section2{
+    margin: 5px;
+    text-align: center;
+}
+
+#btn-generar{
+    color: rgb(230, 230, 240);
+    border-radius: 5%;
+    background-color: rgb(65, 65, 243);
+}
+
+footer p{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    background-color: darkgrey;
+}
+
+@media(max-width: 750px){
+    header{
+        background-color: rgb(172, 210, 234);
+        color: black;
+    }
+    
+    .checkbtn{
+        font-size: 25px;
+        color: rgba(151, 151, 150, 0.495);
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+
+
+
+}

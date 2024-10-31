@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    background-color: #9b3807;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: azure;
+}
+
+ul{
+    list-style: none;
+}
+
+.Navegacion{
+    margin: 5px;
+}
+
+.Navegacion ul{
+    display: flex;
+    gap: 2em;
+    list-style: none;
+}
+
+.titulo_seccion {
+        position: relative;
+        font-size: 40px;
+        color: #003750;
+        text-align: center;
+}
+.container {
+    max-width: 20em; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 30px; /* Agrega un poco de espacio alrededor del formulario */
+    border: 50px; /* Agrega un borde al contenedor */
+    border-radius: 10%; /* Agrega bordes redondeados al contenedor */
+    border: 5px solid rgb(188, 120, 31);
+    background-color: rgb(172, 223, 223);
+}
+.form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+}
+label {
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 200px; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+}
+button {
+    border-radius: 20%;
+    background-color: rgb(127, 255, 127);
+}
+button:hover {
+    background-color: #0056b3;
+}
+
